@@ -1,0 +1,16 @@
+[project]
+version = "0.0.1"
+
+readme = "../readme.md"
+license = { file = "LICENSE" }
+
+authors = [
+    { name = "RA341" },
+]
+
+dependencies = [
+    "requests",
+    "flask",
+    "importlib",
+    "waitress",
+]
